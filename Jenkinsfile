@@ -4,9 +4,9 @@ pipeline{
             image 'node:16.14.2'
         }
     }
-    environment{
-        CI = 'true'
-    }
+    // // environment{
+        // CI = 'true'
+    // }
     stages{
         stage('Build'){
             steps{
