@@ -4,7 +4,7 @@ pipeline{
             image 'node:16.14.2'
         }
     }
-    enviroment{
+    environment{
         CI = 'true'
     }
     stages{
